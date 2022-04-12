@@ -1,0 +1,17 @@
+:root { 
+  --primary: #9B51E0;
+  --max-width-container: 1200px;
+}
+
+body { 
+  color: black;
+  font-family: 'Prompt', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container { 
+  max-width: var(--max-width-container);
+  width: 100%;
+  margin: 0 auto;
+}
